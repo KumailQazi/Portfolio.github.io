@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=utf-8');
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Get the form fields and sanitize the data
   $name = filter_var(trim($_POST["name"]), FILTER_SANITIZE_STRING);
