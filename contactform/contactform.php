@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   // Build the email message
-  $to = "avb@outlook.com";
+  $to = "krmaazha@outlook.com";
   $subject = "New message from contact form";
   $body = "Name: $name\n\nEmail: $email\n\nMessage:\n$message";
 
